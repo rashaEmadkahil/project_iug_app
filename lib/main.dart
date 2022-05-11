@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:project_iug_app/screens/blind_around_me_screen.dart';
 import 'package:project_iug_app/screens/blind_home_screen.dart';
+import 'package:project_iug_app/screens/blind_profile_confirm_message_screen.dart';
+import 'package:project_iug_app/screens/blind_profile_save_screen.dart';
+import 'package:project_iug_app/screens/blind_profile_screen.dart';
+import 'package:project_iug_app/screens/blind_search_result_screen.dart';
 import 'package:project_iug_app/screens/blind_signup_login_screen.dart';
 import 'package:project_iug_app/screens/blind_signup_screen.dart';
+import 'package:project_iug_app/screens/blind_tracking_screen.dart';
 import 'package:project_iug_app/screens/first_screen.dart';
 import 'package:project_iug_app/screens/blind_login_screen.dart';
 
@@ -39,6 +45,12 @@ class MyApp extends StatelessWidget {
         '/blind_signup_login_screen': (context) => const BlindSignUpLoginScreen(),
         '/blind_login_screen': (context) => const BlindLoginScreen(),
         '/blind_home_screen': (context) => const BlindHomeScreen(),
+        '/blind_tracking_screen': (context) => const BlindTrackingScreen(),
+        '/blind_search_result_screen': (context) => const BlindSearchResultScreen(),
+        '/blind_around_me_screen': (context) => const BlindAroundMeScreen(),
+        '/blind_profile_screen': (context) => const BlindProfileScreen(),
+        '/blind_profile_save_screen': (context) => const BlindProfileSaveScreen(),
+        '/blind_profile_confirm_message_screen': (context) => const BlindProfileConfirmMessageScreen(),
 
       },
     );

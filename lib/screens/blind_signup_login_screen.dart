@@ -20,7 +20,9 @@ class BlindSignUpLoginScreen extends StatelessWidget {
                 height: 60,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, '/blind_login_screen');
+                },
                 child: Text('تسجيل دخول',style: TextStyle(fontSize: 20)),
                 style: ElevatedButton.styleFrom(
                   primary: Color(0xff000000),
